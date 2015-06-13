@@ -7,8 +7,7 @@ Create RDD
 ------------
 
 Create  a parallelized collection by calling parallelize from SparkContext.
-
-my_RDD is now a Resilient Distributed Datasets (RDD).
+my_RDD is now a Resilient Distributed Dataset (RDD).
 
 .. code-block:: python
 
