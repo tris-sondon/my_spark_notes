@@ -6,6 +6,8 @@ Quick notes to remember commands and syntax, using pySpark.
 Create RDD
 ------------
 
+Create  a parallelized collection by calling parallelize from SparkContext.
+my_RDD is now a Resilient Distributed Datasets (RDDs).
 
 .. code-block:: python
 
