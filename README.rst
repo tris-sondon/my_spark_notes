@@ -1,12 +1,13 @@
 My Spark Notes
 ==================
 
-Quick notes to remember commands and syntax, using pySpark.
+Quick notes for commands and syntax, using pySpark.
 
 Create RDD
 ------------
 
 Create  a parallelized collection by calling parallelize from SparkContext.
+
 my_RDD is now a Resilient Distributed Dataset (RDD).
 
 .. code-block:: python
