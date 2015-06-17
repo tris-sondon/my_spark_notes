@@ -61,10 +61,10 @@ my_RDD is now a Resilient Distributed Dataset (RDD).
   # Is it cached
   print my_RDD.is_cached
 
+  # 
   print my_RDD.unpersist()
 
   # combine all actions
-
   (sc
     .parallelize(data)
     .map(lambda y: y + 5)
