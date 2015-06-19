@@ -61,7 +61,7 @@ my_RDD is now a Resilient Distributed Dataset (RDD).
   # Is it cached
   print my_RDD.is_cached
 
-  # 
+  # unpersist from memory 
   print my_RDD.unpersist()
 
   # combine all actions
