@@ -54,6 +54,11 @@ my_RDD is now a Resilient Distributed Dataset (RDD).
 
   pp = my_RDD.flatMap(lambda x: (x, x + 's'))
 
+
+Caching
+--------
+
+.. code-block:: python
   
   # Cache the RDD
   my_RDD.cache()
@@ -63,6 +68,12 @@ my_RDD is now a Resilient Distributed Dataset (RDD).
 
   # unpersist from memory 
   print my_RDD.unpersist()
+
+
+All together
+--------------
+
+.. code-block:: python
 
   # combine all actions
   (sc
